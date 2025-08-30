@@ -1,0 +1,113 @@
+clc
+lim1=0; lim2=2;delta=0.0001
+
+delta =
+
+  1.0000e-004
+
+[raiz1, i1] = bissecao(lim1, lim2, lim3)
+{Undefined function or variable 'lim3'.
+} 
+[raiz1, i1] = bissecao(lim1, lim2, delta)
+
+fx =
+
+    -1
+
+
+fx =
+
+    0.8186
+
+
+fx =
+
+   -0.1585
+
+
+fx =
+
+    0.4962
+
+
+fx =
+
+    0.1862
+
+
+fx =
+
+    0.0151
+
+
+fx =
+
+   -0.0718
+
+
+fx =
+
+   -0.0284
+
+
+fx =
+
+   -0.0066
+
+
+fx =
+
+    0.0042
+
+
+fx =
+
+   -0.0012
+
+
+fx =
+
+    0.0015
+
+
+fx =
+
+  1.3981e-004
+
+
+fx =
+
+ -5.3832e-004
+
+
+fx =
+
+ -1.9925e-004
+
+
+fx =
+
+ -2.9719e-005
+
+
+raiz1 =
+
+    1.1141
+
+
+i1 =
+
+    14
+
+[raiz1, i1] = bissecao(lim1, lim2, delta)
+
+raiz1 =
+
+    1.1141
+
+
+i1 =
+
+    14
+
+diary off
