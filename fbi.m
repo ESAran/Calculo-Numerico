@@ -1,4 +1,4 @@
 function [ fx ] = fbi( x )
-fx = x * sin(x) - 1
+fx = -x.^(1/3) + 0.5*x.^2 - 2.5;
 end
 

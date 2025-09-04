@@ -1,0 +1,67 @@
+clc
+a = -10
+
+a =
+
+   -10
+
+b = -1
+
+b =
+
+    -1
+
+delta = 0.00001
+
+delta =
+
+  1.0000e-005
+
+[raiz, i] = bissecao(a, b, delta)
+
+fx =
+
+   -6.4402
+
+
+fx =
+
+   -0.1585
+
+o intervalo [a, b] não é correto, mude-o
+Error in <a href="matlab:helpUtils.errorDocCallback('bissecao', 'C:\Users\7975082\Documents\MATLAB\bissecao.m', 2)" style="font-weight:bold">bissecao</a> (<a href="matlab: opentoline('C:\Users\7975082\Documents\MATLAB\bissecao.m',2,0)">line 2</a>)
+fa = fbi(a); % f(x) avaliado em x=a
+
+{Output argument "c" (and maybe others) not assigned during call
+to "C:\Users\7975082\Documents\MATLAB\bissecao.m>bissecao".
+} 
+[raiz, i] = bissecao(a, b, delta)
+
+raiz =
+
+   -2.9687
+
+
+i =
+
+    19
+
+x = linspace(a, b, 1000);
+y = fbi(x);
+figure;
+plot(x, y, 'b-', 'LineWidth', 2)
+{Warning: Imaginary parts of complex X and/or Y arguments
+ignored} 
+plot(x, y, 'b-', 'LineWidth', 2); hold on;
+{Warning: Imaginary parts of complex X and/or Y arguments
+ignored} 
+plot(x, zeros(size(x)), 'k--');
+plot(raiz, fbi(raiz), 'ro', 'MarkerSize', 8, 'MarkerFaceColor', 'r');
+{Warning: Imaginary parts of complex X and/or Y arguments
+ignored} 
+grid on;
+
+title('Gráfico da função - Nome do Aluno: Eduardo Arán');
+xlabel('x');
+ylabel('f(x)');
+diary off
