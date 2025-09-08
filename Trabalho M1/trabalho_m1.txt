@@ -38,7 +38,7 @@ to "C:\Users\7975082\Documents\MATLAB\bissecao.m>bissecao".
 [raiz, i] = bissecao(a, b, delta)
 
 raiz =
-
+ 
    -2.9687
 
 
