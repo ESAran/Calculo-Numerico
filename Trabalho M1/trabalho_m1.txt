@@ -25,7 +25,7 @@ fx =
 
 
 fx =
-
+ 
    -0.1585
 
 o intervalo [a, b] n�o � correto, mude-o
