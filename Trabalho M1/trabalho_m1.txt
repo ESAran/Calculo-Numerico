@@ -43,7 +43,7 @@ raiz =
 
 
 i =
-
+ 
     19
 
 x = linspace(a, b, 1000);
